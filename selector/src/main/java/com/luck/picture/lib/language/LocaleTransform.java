@@ -30,7 +30,7 @@ public class LocaleTransform {
                 return Locale.JAPAN;
             case LanguageConfig.VIETNAM:
                 // 越南语
-                return new Locale("vi");
+                return new Locale("vi_VN");
             case LanguageConfig.SPANISH:
                 // 西班牙语
                 return new Locale("es", "ES");
@@ -51,7 +51,7 @@ public class LocaleTransform {
                 return new Locale("kk", "rKZ");
             default:
                 // 简体中文
-                return Locale.CHINESE;
+                return Locale.ENGLISH;
         }
     }
 }
